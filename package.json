@@ -1,0 +1,8 @@
+{
+  "name": "to-roman-numeral",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ChrisWilding/to-roman-numeral.git",
+  "author": "Chris Wilding <hello@chriswilding.co.uk>",
+  "license": "Apache-2.0"
+}
