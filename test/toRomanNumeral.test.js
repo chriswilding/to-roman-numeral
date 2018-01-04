@@ -44,8 +44,16 @@ describe('toRomanNumeral', () => {
   ];
 
   allCases.forEach(([input, expected]) => {
-    test(`it converts ${input} to ${expected}`, () => {
+    it(`converts ${input} to ${expected}`, () => {
       expect(toRomanNumeral(input)).toBe(expected);
     });
+  });
+
+  it('throws an error on inputs greater than 3999', () => {
+    expect(() => toRomanNumeral(4000)).toThrow('input must be between 1 and 3999 inclusive');
+  });
+
+  it('throws an error on inputs less than 1', () => {
+    expect(() => toRomanNumeral(0)).toThrow('input must be between 1 and 3999 inclusive');
   });
 });

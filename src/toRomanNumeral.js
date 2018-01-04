@@ -15,6 +15,10 @@ const ROMAN_TO_ARABIC = {
 };
 
 function toRomanNumeral(input) {
+  if (input < 1 || input > 3999) {
+    throw new Error('input must be between 1 and 3999 inclusive');
+  }
+
   const numerals = Object.keys(ROMAN_TO_ARABIC);
   const { result: output } = numerals.reduce(({ remainder, result }, roman) => {
     const arabic = ROMAN_TO_ARABIC[roman];
