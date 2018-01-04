@@ -1,5 +1,7 @@
 # to-roman-numeral
 
+A command line tool to convert numbers to roman numerals
+
 ## Prerequisites
 
 1. [Node v8.9.4](https://nodejs.org/en/download/)
