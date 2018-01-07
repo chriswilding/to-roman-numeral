@@ -1,4 +1,4 @@
-# to-roman-numeral
+# To Roman Numeral
 
 A command line tool to convert numbers to roman numerals
 
