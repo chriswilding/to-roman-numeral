@@ -4,7 +4,7 @@ A command line tool to convert numbers to roman numerals
 
 ## Prerequisites
 
-1. [Node v8.9.4](https://nodejs.org/en/download/)
+1. [Node v8.11.0](https://nodejs.org/en/download/)
 1. [Yarn](https://yarnpkg.com/en/docs/install)
 
 ## Installation

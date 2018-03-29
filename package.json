@@ -9,11 +9,11 @@
     "trn": "./src/cli.js"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jest": "^21.5.0",
-    "jest": "^22.0.4"
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "jest": "^22.4.3"
   },
   "scripts": {
     "lint": "eslint src test",
