@@ -1,4 +1,4 @@
-# To Roman Numeral
+# To Roman Numeral [![Build Status](https://travis-ci.org/ChrisWilding/to-roman-numeral.svg?branch=master)](https://travis-ci.org/ChrisWilding/to-roman-numeral)
 
 A command line tool to convert numbers to roman numerals
 
